@@ -96,7 +96,8 @@ function gameStart(difficulty){
 
 function winGame(){
     if (difficulty === "ultimate"){
-        resultText.textContent = `The codeword is SANDHILL`;
+        //OH NO! you found it!
+        resultText.textContent = `The codeword is PICO`;
     } else if(difficulty === "hard"){
         resultText.textContent = `Wow! Restart the site and click the 'u' for the Ultimate Challenge!`;
     } else {
