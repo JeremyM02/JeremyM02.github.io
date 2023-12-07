@@ -81,7 +81,7 @@ function gameStart(difficulty){
         numCards = 15;
         gameText.style.borderColor = 'red';
     } else if (difficulty === "ultimate"){
-        numCards = 50;
+        numCards = 25;
         gameText.style.borderColor = 'purple';
     }
     easy.remove();
@@ -97,7 +97,7 @@ function gameStart(difficulty){
 function winGame(){
     if (difficulty === "ultimate"){
         //OH NO! you found it!
-        resultText.textContent = `The codeword is PICO`;
+        resultText.textContent = `YOU ARE AMAZING!`;
     } else if(difficulty === "hard"){
         resultText.textContent = `Wow! Restart the site and click the 'u' for the Ultimate Challenge!`;
     } else {
